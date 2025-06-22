@@ -1,118 +1,163 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi!!!👋",
+    "description": " I'm B Dhana Aswini, a MERN Stack and Frontend Developer who loves coding and turning ideas into powerful, user-centric web applications. Whether it’s crafting smooth frontend experiences or architecting scalable backend solutions, I enjoy solving problems through code and continuously learning. I’m currently looking for full-time opportunities to grow as a developer and make meaningful contributions to impactful projects.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+
+  "projects": [
+    {
+      "title": "LMS Protal",
+      "startDate": "2025",
+      "description": "A responsive learning management platform featuring separate dashboards for educators and learners. Built with React.js and Tailwind CSS, it allows instructors to upload/manage courses and learners to explore, purchase, and access course content with ease.",
+      "images": [
+        "images/portfolio/photography/p1.png",
+        "images/portfolio/photography/p2.png"
+      ],
+      "url": "https://lms-full-stack1-7bgs10yyo-dhanaaswinis-projects.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJs"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "HostelXpert",
+      "startDate": "2023",
+      "description": "A smart hostel management system built to streamline room allocation, student tracking, and admin operations. Designed intuitive user interfaces using Nextjs and handled backend tasks with Node.js and MongoDB, making day-to-day hostel management efficient and digital-first.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.png",
+        "images/portfolio/animal-shelter/p2.png"
+      ],
+      "url": "https://github.com/DhanaAswini/HostelXpert",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "Nextjs"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJs"
+        }
+      ]
+    },
+    {
+      "title": "Github Profile Analayzer",
+      "startDate": "2024",
+      "description": "A web app that fetches and visualizes GitHub user data using the GitHub API. Built with React.js and Chart.js, it displays insights like top languages, repo activity, and commit history in an interactive and user-friendly dashboard.",
+      "images": [
+        "images/portfolio/adventure/p1.png",
+        "images/portfolio/adventure/p2.png"
+      ],
+      "url": "https://github-profile-analyzer-puce.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "ReactJs"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-tailwindcss-original",
+          "name": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "title": "ZenPathways",
+      "startDate": "2024",
+      "description": "A wellness-focused platform offering access to certified therapists, guided journaling, and calming music. Built using Next.js and Tailwind CSS, the app promotes mental well-being through a clean, intuitive interface and personalized user experience.",
+      "images": [
+        "images/portfolio/thera/p1.png",
+        "images/portfolio/thera/p2.png"
+      ],
+      "url": "https://zenpathways.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "NextJs"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-tailwindcss-original",
+          "name": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "title": "Memory Game",
+      "startDate": "2023",
+      "description": "A fun and interactive card-matching game built with React.js, designed to test and improve memory skills. Features smooth animations, randomized card layouts, and responsive gameplay.",
+      "images": [
+        "images/portfolio/game/p1.png",
+        "images/portfolio/game/p2.png"
+      ],
+      "url": "https://memory-game-beta-six.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Namoona Labs",
+      "title": "Junior Developer Intern",
+      "years": "12.2024 - 01.2025",
+      "mainTech": ["ReactJs 8/9/10"],
+      "technologies": [
+        "ReactJS",
+        "NextJs",
+        "JavaScript",
+        "TypeScript",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Material UI"
+      ]
+    },
+    {
+      "company": "CloudEye Technologies",
+      "title": "Fullstack Developer Intern",
+      "years": "04.2024 - 05.2024",
+      "mainTech": ["ReactJs 7/8"],
+      "technologies": ["ReactJs", "ExpressJs", "NodeJs", "JavaScript"]
+    }
+  ]
+}
